@@ -1,4 +1,4 @@
-## reactConfiguration仓库说明
+## WeChat-Menu-To-B仓库说明
 
 
 ### 命令
@@ -6,7 +6,6 @@
 ```
 yarn build // 打包
 yarn dev //开发环境
-yarn publish // 项目发布
 ```
 
 ### 项目目录
