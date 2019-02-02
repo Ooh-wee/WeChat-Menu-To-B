@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { Button } from 'antd'
 import LeftMenu from './leftMenu'
 import Content from './Content'
 import Header from './header'
 import Footer from './footer'
 
-export default class App extends Component{
+export default class App extends React.Component{
   render() {
     return (
       <div className="App">

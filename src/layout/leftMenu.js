@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import {} from 'antd'
 
 export default class LeftMenu extends React.Component {

@@ -4,8 +4,7 @@ const path = require('path'),
 
 
 const config = {
-  // entry: './src/index.tsx',
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname + '/dist'),
     filename: '[name].bundle.js'
@@ -16,7 +15,7 @@ const config = {
       {test: /\.css$/, use: [ 'style-loader', 'css-loader' ]},
       {test: /\.less$/, use: [ 'style-loader', 'css-loader', 'less-loader' ]},
       {test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/,loader: 'url-loader?limit=30000&name=[name]-[hash].[ext]'},
-      // {test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/},
+      {test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/},
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
   },
