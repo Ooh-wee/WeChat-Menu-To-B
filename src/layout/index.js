@@ -1,9 +1,8 @@
 import * as React from 'react'
-import { Button } from 'antd'
 import LeftMenu from './leftMenu'
-import Content from './Content'
+import Container from './container'
 import Header from './header'
-import Footer from './footer'
+require('../style/layout.css')
 
 export default class App extends React.Component{
   render() {
@@ -11,8 +10,7 @@ export default class App extends React.Component{
       <div className="App">
         <LeftMenu/>
         <Header/>
-        <Footer/>
-        <Content/>
+        <Container/>
       </div>
     )
   }

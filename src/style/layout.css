@@ -1,0 +1,28 @@
+.leftMenu{
+   width:  200px;
+   height: 100%;
+   background: #000;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.siteIcon{
+   width: auto;
+   height: 60px;
+   background: #000;
+   color: #FFF;
+}
+
+.header{
+   width: auto;
+   height: 60px;
+   margin-left: 200px;
+   background: #CCC;
+}
+
+.container{
+   width: auto;
+   height: auto;
+   margin: 180px 0 0 210px;
+}
